@@ -1,0 +1,123 @@
+spring:
+  application:
+    name: workforce-optimization-api
+  
+  # Database Configuration
+  datasource:
+    url: jdbc:h2:mem:workforce_db;DB_CLOSE_DELAY=-1;CASE_INSENSITIVE_IDENTIFIERS=TRUE
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+    # url: jdbc:mysql://${DB_HOST:localhost}:3306/workforce_optimization?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    # username: ${DB_USER:root}
+    # password: ${DB_PASSWORD:root}
+    # driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  # H2 Console
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  
+  # JPA Configuration
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+        use_sql_comments: true
+    open-in-view: false
+    defer-datasource-initialization: true
+  
+  # SQL Initialization (seed data on startup)
+  sql:
+    init:
+      mode: always
+      continue-on-error: true
+  
+  # Mail Configuration
+  mail:
+    host: ${SMTP_HOST:smtp.gmail.com}
+    port: ${SMTP_PORT:587}
+    username: ${SMTP_USERNAME:}
+    password: ${SMTP_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: UTF-8
+  
+  # File Upload
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+# Server Configuration
+server:
+  port: ${SERVER_PORT:8080}
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: on_param
+    include-exception: false
+
+# Application Configuration
+app:
+  # JWT Configuration
+  jwt:
+    secret: ${JWT_SECRET:5Kv8x9YlZmP2nQrT6wB3cD4fG7hJ9kL1mN5pR8sU0vX3yA6bE9dF2gH5jK8lN1q}
+    expiration-ms: 86400000  # 24 hours
+    refresh-expiration-ms: 604800000  # 7 days
+  
+  # AI Microservice Configuration
+  ai-service:
+    url: ${AI_SERVICE_URL:http://localhost:8000}
+    timeout-seconds: 60
+  
+  # Email Configuration
+  email:
+    from: ${EMAIL_FROM:noreply@workforce.com}
+    from-name: Workforce Intelligence Platform
+    enabled: ${EMAIL_ENABLED:true}
+
+# Logging Configuration
+logging:
+  level:
+    root: INFO
+    com.workforce: DEBUG
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/workforce-optimization.log
+
+# OpenAPI Documentation
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+  show-actuator: false
+
+# Management Endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when-authorized

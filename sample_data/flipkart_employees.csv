@@ -1,0 +1,16 @@
+employee_code,first_name,last_name,email,phone,company,department,position,hourly_wage,base_salary,date_of_joining,shift_type,weekly_hours,overtime_hours_3m,night_shifts_count_3m,performance_score,absenteeism_rate,tenure_months,attrition_risk,skills,city
+FLK001,Sriram,Venkat,sriram.venkat@flipkart.com,+91-8765432101,Flipkart,Ekart Logistics,Delivery Executive,125,19000,2022-04-10,ROTATING,54,38,13,60,8.5,24,HIGH,"Delivery,Navigation,Customer Handling,Heavy Lifting",Bangalore
+FLK002,Madhavi,Latha,madhavi.latha@flipkart.com,+91-8765432102,Flipkart,Warehouse Ops,Picker Associate,118,18000,2023-02-15,NIGHT,58,44,18,50,13.5,14,HIGH,"Picking,Scanning,Inventory,Sorting",Hyderabad
+FLK003,Prabhu,Deva,prabhu.deva@flipkart.com,+91-8765432103,Flipkart,Ekart Logistics,Senior Delivery Exec,142,22000,2021-07-20,MORNING,46,14,2,82,2.8,33,LOW,"Delivery,Navigation,Training,Customer Service",Chennai
+FLK004,Nandini,Murthy,nandini.murthy@flipkart.com,+91-8765432104,Flipkart,Warehouse Ops,Packer Associate,115,17500,2023-06-08,ROTATING,55,40,14,55,10.8,10,HIGH,"Packing,Scanning,Quality Check",Bangalore
+FLK005,Shankar,Dayal,shankar.dayal@flipkart.com,+91-8765432105,Flipkart,Ekart Logistics,Delivery Executive,122,18500,2023-09-25,AFTERNOON,47,20,5,72,5.2,7,MEDIUM,"Delivery,Navigation,Customer Handling",Delhi
+FLK006,Revathi,Selvan,revathi.selvan@flipkart.com,+91-8765432106,Flipkart,Warehouse Ops,Picker Associate,116,17600,2024-01-12,NIGHT,60,50,20,42,17.0,3,HIGH,"Picking,Scanning,Inventory",Kolkata
+FLK007,Karthik,Raja,karthik.raja@flipkart.com,+91-8765432107,Flipkart,Warehouse Ops,Warehouse Manager,195,32000,2020-11-05,MORNING,48,18,3,86,1.8,41,LOW,"Team Management,Inventory,Process Optimization,Safety,Training",Bangalore
+FLK008,Uma,Shankar,uma.shankar@flipkart.com,+91-8765432108,Flipkart,Ekart Logistics,Delivery Executive,120,18200,2023-04-18,ROTATING,56,42,16,52,12.5,12,HIGH,"Delivery,Navigation,Heavy Lifting",Mumbai
+FLK009,Aravind,Kumar,aravind.kumar@flipkart.com,+91-8765432109,Flipkart,Warehouse Ops,Sortation Associate,112,17000,2023-08-05,MORNING,43,10,2,80,3.0,8,LOW,"Sorting,Scanning,Loading",Pune
+FLK010,Sowmya,Naidu,sowmya.naidu@flipkart.com,+91-8765432110,Flipkart,Ekart Logistics,Hub Manager,175,28000,2021-09-15,ROTATING,50,24,7,78,3.5,31,MEDIUM,"Hub Management,Logistics,Fleet Tracking,Training",Hyderabad
+FLK011,Dileep,Chakraborty,dileep.chakraborty@flipkart.com,+91-8765432111,Flipkart,Warehouse Ops,Picker Associate,115,17500,2024-02-28,NIGHT,62,52,22,38,19.5,2,HIGH,"Picking,Scanning",Ahmedabad
+FLK012,Jayashree,Raman,jayashree.raman@flipkart.com,+91-8765432112,Flipkart,Ekart Logistics,Delivery Executive,122,18500,2022-12-10,AFTERNOON,46,18,4,74,4.5,16,MEDIUM,"Delivery,Navigation,Customer Service",Chennai
+FLK013,Mohan,Das,mohan.das@flipkart.com,+91-8765432113,Flipkart,Warehouse Ops,Process Associate,135,20500,2022-06-22,MORNING,45,12,2,82,2.2,22,LOW,"Process Management,Quality Audit,Training",Bangalore
+FLK014,Sarita,Devi,sarita.devi@flipkart.com,+91-8765432114,Flipkart,Ekart Logistics,Delivery Executive,118,17800,2023-11-15,ROTATING,58,46,17,48,14.8,5,HIGH,"Delivery,Navigation",Lucknow
+FLK015,Vignesh,Sundaram,vignesh.sundaram@flipkart.com,+91-8765432115,Flipkart,Warehouse Ops,Packer Associate,114,17200,2023-07-30,NIGHT,56,40,16,54,11.0,9,HIGH,"Packing,Scanning,Quality Check",Jaipur

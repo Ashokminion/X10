@@ -1,0 +1,123 @@
+/* Dashboard Component Styles - Dark Theme Compatible */
+/* These styles extend the base dark theme from index.css */
+
+.dashboard-container {
+    padding: 24px 28px;
+    min-height: 100vh;
+}
+
+.dashboard-header {
+    margin-bottom: 24px;
+}
+
+.dashboard-header h2 {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.dashboard-header p {
+    color: var(--text-muted);
+    font-size: 14px;
+}
+
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+/* stat-card is already styled in index.css for dark theme — removed conflicting white-background rules */
+
+.stat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.stat-card-title {
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-card-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.stat-card-icon.blue {
+    background: rgba(99, 102, 241, 0.12);
+    color: var(--accent-primary);
+}
+
+.stat-card-icon.green {
+    background: rgba(16, 185, 129, 0.12);
+    color: var(--success);
+}
+
+.stat-card-icon.orange {
+    background: rgba(245, 158, 11, 0.12);
+    color: var(--warning);
+}
+
+.stat-card-icon.red {
+    background: rgba(239, 68, 68, 0.12);
+    color: var(--danger);
+}
+
+.stat-card-value {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.stat-card-change {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.stat-card-change.positive {
+    color: var(--success);
+}
+
+.stat-card-change.negative {
+    color: var(--danger);
+}
+
+.dashboard-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.chart-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: 24px;
+}
+
+.chart-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .dashboard-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-charts {
+        grid-template-columns: 1fr;
+    }
+}

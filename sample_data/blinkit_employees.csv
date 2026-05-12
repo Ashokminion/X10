@@ -1,0 +1,16 @@
+employee_code,first_name,last_name,email,phone,company,department,position,hourly_wage,base_salary,date_of_joining,shift_type,weekly_hours,overtime_hours_3m,night_shifts_count_3m,performance_score,absenteeism_rate,tenure_months,attrition_risk,skills,city
+BLK001,Nikhil,Bansal,nikhil.bansal@blinkit.com,+91-8877665501,Blinkit,Quick Delivery,Delivery Partner,110,16500,2023-07-10,ROTATING,56,42,15,52,12.5,9,HIGH,"Two-Wheeler Driving,Speed Delivery,Navigation",Gurugram
+BLK002,Rohit,Malhotra,rohit.malhotra@blinkit.com,+91-8877665502,Blinkit,Dark Store Ops,Store Associate,105,16000,2023-02-20,NIGHT,58,44,18,50,13.0,14,HIGH,"Picking,Packing,Inventory",Delhi
+BLK003,Swati,Bhargava,swati.bhargava@blinkit.com,+91-8877665503,Blinkit,Quick Delivery,Delivery Partner,112,17000,2023-10-05,MORNING,44,12,2,80,3.5,6,LOW,"Two-Wheeler Driving,Speed Delivery,Customer Service",Mumbai
+BLK004,Ajay,Kashyap,ajay.kashyap@blinkit.com,+91-8877665504,Blinkit,Dark Store Ops,Store Picker,100,15500,2023-05-15,ROTATING,54,36,12,58,9.2,11,HIGH,"Picking,Inventory,Quality Check",Bangalore
+BLK005,Tanvi,Oberoi,tanvi.oberoi@blinkit.com,+91-8877665505,Blinkit,Quick Delivery,Delivery Partner,115,17500,2022-12-08,AFTERNOON,46,18,5,74,4.8,16,MEDIUM,"Two-Wheeler Driving,Speed Delivery,Navigation",Noida
+BLK006,Manish,Saxena,manish.saxena@blinkit.com,+91-8877665506,Blinkit,Dark Store Ops,Store Manager,170,26000,2022-04-10,MORNING,48,20,3,82,2.2,24,LOW,"Store Management,Inventory,Team Lead,Quality",Gurugram
+BLK007,Ritu,Aggarwal,ritu.aggarwal@blinkit.com,+91-8877665507,Blinkit,Quick Delivery,Delivery Partner,108,16200,2024-01-18,NIGHT,60,50,22,42,18.0,3,HIGH,"Two-Wheeler Driving,Speed Delivery",Hyderabad
+BLK008,Prakash,Mohan,prakash.mohan@blinkit.com,+91-8877665508,Blinkit,Dark Store Ops,Store Associate,102,15800,2023-08-25,ROTATING,55,38,14,56,10.5,8,HIGH,"Picking,Packing,Inventory",Chennai
+BLK009,Komal,Sharma,komal.sharma@blinkit.com,+91-8877665509,Blinkit,Quick Delivery,Delivery Partner,112,17000,2023-04-12,MORNING,42,8,1,85,1.9,12,LOW,"Two-Wheeler Driving,Speed Delivery,Navigation",Pune
+BLK010,Deepak,Rawat,deepak.rawat@blinkit.com,+91-8877665510,Blinkit,Dark Store Ops,Store Picker,98,15200,2024-02-28,NIGHT,62,54,23,38,20.0,2,HIGH,"Picking,Inventory",Delhi
+BLK011,Megha,Kapoor,megha.kapoor@blinkit.com,+91-8877665511,Blinkit,Quick Delivery,Fleet Supervisor,150,23000,2022-06-15,ROTATING,50,25,7,76,3.8,22,MEDIUM,"Fleet Management,Training,Navigation",Mumbai
+BLK012,Tarun,Sethi,tarun.sethi@blinkit.com,+91-8877665512,Blinkit,Quick Delivery,Delivery Partner,110,16500,2023-11-20,AFTERNOON,47,19,5,70,5.5,5,MEDIUM,"Two-Wheeler Driving,Speed Delivery",Kolkata
+BLK013,Pallavi,Mishra,pallavi.mishra@blinkit.com,+91-8877665513,Blinkit,Dark Store Ops,Store Associate,105,16000,2023-06-30,MORNING,44,13,3,78,3.2,10,LOW,"Picking,Packing,Quality Check",Bangalore
+BLK014,Sachin,Tomar,sachin.tomar@blinkit.com,+91-8877665514,Blinkit,Quick Delivery,Delivery Partner,108,16200,2024-03-10,ROTATING,58,46,17,46,15.2,1,HIGH,"Two-Wheeler Driving,Speed Delivery",Jaipur
+BLK015,Nisha,Pandey,nisha.pandey@blinkit.com,+91-8877665515,Blinkit,Dark Store Ops,Store Associate,100,15500,2023-09-08,NIGHT,56,40,16,54,11.8,7,HIGH,"Picking,Packing,Inventory",Lucknow

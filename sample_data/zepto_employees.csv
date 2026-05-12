@@ -1,0 +1,13 @@
+employee_code,first_name,last_name,email,phone,company,department,position,hourly_wage,base_salary,date_of_joining,shift_type,weekly_hours,overtime_hours_3m,night_shifts_count_3m,performance_score,absenteeism_rate,tenure_months,attrition_risk,skills,city
+ZPT001,Akash,Dutta,akash.dutta@zepto.co,+91-7766554401,Zepto,Quick Delivery,Delivery Partner,108,16200,2023-08-15,ROTATING,58,44,16,50,14.0,8,HIGH,"Two-Wheeler Driving,Speed Delivery,Navigation",Mumbai
+ZPT002,Simran,Kaur,simran.kaur@zepto.co,+91-7766554402,Zepto,Dark Store Ops,Store Picker,95,14800,2023-11-20,NIGHT,60,48,20,44,16.5,5,HIGH,"Picking,Packing,Speed Processing",Bangalore
+ZPT003,Varun,Kapila,varun.kapila@zepto.co,+91-7766554403,Zepto,Quick Delivery,Delivery Partner,112,17000,2023-03-10,MORNING,43,10,2,82,2.5,13,LOW,"Two-Wheeler Driving,Speed Delivery,Customer Service",Delhi
+ZPT004,Ankit,Soni,ankit.soni@zepto.co,+91-7766554404,Zepto,Quick Delivery,Delivery Partner,105,16000,2024-01-05,ROTATING,56,42,15,48,13.5,3,HIGH,"Two-Wheeler Driving,Speed Delivery",Pune
+ZPT005,Ritika,Arora,ritika.arora@zepto.co,+91-7766554405,Zepto,Dark Store Ops,Store Manager,162,25000,2022-06-20,MORNING,46,14,2,84,2.0,22,LOW,"Store Management,Inventory,Quality Control,Team Lead",Mumbai
+ZPT006,Gaurav,Chand,gaurav.chand@zepto.co,+91-7766554406,Zepto,Quick Delivery,Delivery Partner,110,16500,2023-06-12,NIGHT,62,52,22,40,19.0,10,HIGH,"Two-Wheeler Driving,Speed Delivery",Hyderabad
+ZPT007,Preeti,Garg,preeti.garg@zepto.co,+91-7766554407,Zepto,Quick Delivery,Delivery Partner,108,16200,2023-09-28,AFTERNOON,46,16,4,74,4.5,7,MEDIUM,"Two-Wheeler Driving,Speed Delivery,Navigation",Chennai
+ZPT008,Aman,Bisht,aman.bisht@zepto.co,+91-7766554408,Zepto,Dark Store Ops,Store Picker,92,14500,2024-02-15,ROTATING,58,46,18,42,17.2,2,HIGH,"Picking,Packing,Inventory",Noida
+ZPT009,Jyoti,Kumari,jyoti.kumari@zepto.co,+91-7766554409,Zepto,Quick Delivery,Fleet Lead,148,22500,2022-09-05,ROTATING,50,24,8,76,3.8,19,MEDIUM,"Fleet Management,Training,Navigation",Bangalore
+ZPT010,Naveen,Reddy,naveen.reddy@zepto.co,+91-7766554410,Zepto,Quick Delivery,Delivery Partner,105,16000,2023-12-18,NIGHT,60,50,21,38,20.5,4,HIGH,"Two-Wheeler Driving,Speed Delivery",Kolkata
+ZPT011,Shruti,Mehta,shruti.mehta@zepto.co,+91-7766554411,Zepto,Dark Store Ops,Store Associate,98,15200,2023-07-22,MORNING,44,11,2,80,3.0,9,LOW,"Picking,Packing,Quality Check",Mumbai
+ZPT012,Piyush,Goswami,piyush.goswami@zepto.co,+91-7766554412,Zepto,Quick Delivery,Delivery Partner,108,16200,2024-03-01,ROTATING,55,40,14,52,12.0,1,HIGH,"Two-Wheeler Driving,Speed Delivery",Jaipur

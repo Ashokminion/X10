@@ -1,0 +1,107 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  mysql-db:
+    image: mysql:8.0
+    container_name: workforce-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: workforce_optimization
+      MYSQL_USER: workforce
+      MYSQL_PASSWORD: workforce123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    networks:
+      - workforce-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Spring Boot Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: workforce-backend
+    depends_on:
+      mysql-db:
+        condition: service_healthy
+    environment:
+      DB_HOST: mysql-db
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: root
+      JWT_SECRET: 5Kv8x9YlZmP2nQrT6wB3cD4fG7hJ9kL1mN5pR8sU0vX3yA6bE9dF2gH5jK8lN1q
+      AI_SERVICE_URL: http://ai-service:8000
+      SMTP_HOST: smtp.gmail.com
+      SMTP_PORT: 587
+      SMTP_USERNAME: ${SMTP_USERNAME:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      EMAIL_ENABLED: false
+    ports:
+      - "8080:8080"
+    networks:
+      - workforce-network
+    restart: unless-stopped
+
+  # FastAPI AI Microservice
+  ai-service:
+    build:
+      context: ./ai-service
+      dockerfile: Dockerfile
+    container_name: workforce-ai-service
+    depends_on:
+      mysql-db:
+        condition: service_healthy
+    environment:
+      DB_HOST: mysql-db
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: workforce_optimization
+      SERVICE_HOST: 0.0.0.0
+      SERVICE_PORT: 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ai-models:/app/models
+      - ai-reports:/app/reports
+    networks:
+      - workforce-network
+    restart: unless-stopped
+
+  # React Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: workforce-frontend
+    depends_on:
+      - backend
+      - ai-service
+    environment:
+      REACT_APP_API_URL: http://localhost:8080/api
+      REACT_APP_AI_SERVICE_URL: http://localhost:8000/api
+    ports:
+      - "3000:80"
+    networks:
+      - workforce-network
+    restart: unless-stopped
+
+networks:
+  workforce-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
+    driver: local
+  ai-models:
+    driver: local
+  ai-reports:
+    driver: local

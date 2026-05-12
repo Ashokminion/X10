@@ -1,0 +1,21 @@
+employee_code,first_name,last_name,email,phone,company,department,position,hourly_wage,base_salary,date_of_joining,shift_type,weekly_hours,overtime_hours_3m,night_shifts_count_3m,performance_score,absenteeism_rate,tenure_months,attrition_risk,skills,city
+ZOM001,Arjun,Mehta,arjun.mehta@zomato.com,+91-9988776601,Zomato,Delivery Fleet,Delivery Partner,125,19000,2022-05-10,ROTATING,54,40,13,56,10.5,23,HIGH,"Two-Wheeler Driving,Navigation,Food Handling",Mumbai
+ZOM002,Rahul,Pandey,rahul.pandey@zomato.com,+91-9988776602,Zomato,Delivery Fleet,Delivery Partner,118,17800,2023-01-15,NIGHT,60,48,20,48,14.2,15,HIGH,"Two-Wheeler Driving,Navigation",Delhi
+ZOM003,Divya,Saxena,divya.saxena@zomato.com,+91-9988776603,Zomato,Delivery Fleet,Delivery Partner,122,18200,2023-06-20,MORNING,42,8,1,86,1.8,10,LOW,"Two-Wheeler Driving,Navigation,Customer Service",Bangalore
+ZOM004,Vijay,Rathore,vijay.rathore@zomato.com,+91-9988776604,Zomato,Delivery Fleet,Senior Partner,145,22000,2021-04-12,ROTATING,52,35,11,65,7.8,35,MEDIUM,"Two-Wheeler Driving,Navigation,Training,Mentoring",Pune
+ZOM005,Neha,Agarwal,neha.agarwal@zomato.com,+91-9988776605,Zomato,Delivery Fleet,Delivery Partner,120,18000,2023-09-05,AFTERNOON,48,22,6,70,5.5,7,MEDIUM,"Two-Wheeler Driving,Navigation,Food Handling",Chennai
+ZOM006,Pankaj,Dubey,pankaj.dubey@zomato.com,+91-9988776606,Zomato,Delivery Fleet,Delivery Partner,115,17500,2024-02-14,NIGHT,62,52,22,40,17.8,2,HIGH,"Two-Wheeler Driving,Navigation",Kolkata
+ZOM007,Meera,Pillai,meera.pillai@zomato.com,+91-9988776607,Zomato,Restaurant Relations,Account Manager,165,26000,2022-03-08,MORNING,46,15,2,82,2.5,25,LOW,"Account Management,Negotiation,CRM",Kochi
+ZOM008,Ashok,Thakur,ashok.thakur@zomato.com,+91-9988776608,Zomato,Delivery Fleet,Delivery Partner,118,17800,2023-04-22,ROTATING,56,42,16,52,12.0,12,HIGH,"Two-Wheeler Driving,Navigation",Jaipur
+ZOM009,Shalini,Menon,shalini.menon@zomato.com,+91-9988776609,Zomato,Delivery Fleet,Delivery Partner,120,18000,2023-11-10,MORNING,44,10,2,80,3.0,5,LOW,"Two-Wheeler Driving,Navigation,Customer Service",Bangalore
+ZOM010,Harish,Chandra,harish.chandra@zomato.com,+91-9988776610,Zomato,Delivery Fleet,Fleet Captain,155,24000,2021-08-15,ROTATING,50,28,9,74,4.2,31,MEDIUM,"Two-Wheeler Driving,Fleet Management,Training",Delhi
+ZOM011,Rekha,Bhatt,rekha.bhatt@zomato.com,+91-9988776611,Zomato,Delivery Fleet,Delivery Partner,112,17000,2024-01-08,NIGHT,58,46,19,46,15.5,3,HIGH,"Two-Wheeler Driving,Navigation",Ahmedabad
+ZOM012,Santosh,Kamat,santosh.kamat@zomato.com,+91-9988776612,Zomato,Delivery Fleet,Delivery Partner,120,18000,2022-10-25,AFTERNOON,47,20,5,72,5.0,18,MEDIUM,"Two-Wheeler Driving,Navigation,Food Handling",Mumbai
+ZOM013,Priyanka,Sinha,priyanka.sinha@zomato.com,+91-9988776613,Zomato,Hub Operations,Hub Coordinator,140,21500,2022-07-18,MORNING,45,12,3,84,2.0,21,LOW,"Inventory Management,Coordination,Quality Check",Delhi
+ZOM014,Gopal,Krishnan,gopal.krishnan@zomato.com,+91-9988776614,Zomato,Delivery Fleet,Delivery Partner,115,17500,2023-12-20,ROTATING,58,44,17,50,13.8,4,HIGH,"Two-Wheeler Driving,Navigation",Hyderabad
+ZOM015,Asha,Rawat,asha.rawat@zomato.com,+91-9988776615,Zomato,Delivery Fleet,Delivery Partner,118,17800,2023-08-05,MORNING,43,9,2,82,2.2,8,LOW,"Two-Wheeler Driving,Navigation,Customer Service",Lucknow
+ZOM016,Dinesh,Choudhary,dinesh.choudhary@zomato.com,+91-9988776616,Zomato,Delivery Fleet,Delivery Partner,116,17600,2023-03-28,NIGHT,60,50,21,44,16.5,13,HIGH,"Two-Wheeler Driving,Navigation",Pune
+ZOM017,Fatima,Sheikh,fatima.sheikh@zomato.com,+91-9988776617,Zomato,Delivery Fleet,Delivery Partner,120,18000,2022-12-15,AFTERNOON,46,17,4,76,4.2,16,MEDIUM,"Two-Wheeler Driving,Navigation,Food Handling",Mumbai
+ZOM018,Bharat,Negi,bharat.negi@zomato.com,+91-9988776618,Zomato,Delivery Fleet,Delivery Partner,110,16800,2024-03-05,ROTATING,55,38,14,54,11.0,1,HIGH,"Two-Wheeler Driving,Navigation",Dehradun
+ZOM019,Kamala,Devi,kamala.devi@zomato.com,+91-9988776619,Zomato,Hub Operations,Hub Associate,132,20000,2023-05-12,MORNING,44,11,2,80,2.8,11,LOW,"Inventory Management,Order Processing",Chennai
+ZOM020,Sunil,Jha,sunil.jha@zomato.com,+91-9988776620,Zomato,Delivery Fleet,Delivery Partner,118,17800,2023-07-30,NIGHT,58,46,18,48,14.8,9,HIGH,"Two-Wheeler Driving,Navigation",Patna

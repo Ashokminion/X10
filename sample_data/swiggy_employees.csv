@@ -1,0 +1,21 @@
+employee_code,first_name,last_name,email,phone,company,department,position,hourly_wage,base_salary,date_of_joining,shift_type,weekly_hours,overtime_hours_3m,night_shifts_count_3m,performance_score,absenteeism_rate,tenure_months,attrition_risk,skills,city
+SWG001,Rajesh,Kumar,rajesh.kumar@swiggy.in,+91-9876543201,Swiggy,Delivery Operations,Delivery Executive,120,18000,2023-03-15,ROTATING,52,38,12,62,8.5,14,HIGH,"Two-Wheeler Driving,Navigation,Customer Service",Mumbai
+SWG002,Amit,Sharma,amit.sharma@swiggy.in,+91-9876543202,Swiggy,Delivery Operations,Delivery Executive,120,18000,2022-11-20,NIGHT,58,45,18,55,12.3,17,HIGH,"Two-Wheeler Driving,Navigation",Delhi
+SWG003,Priya,Patel,priya.patel@swiggy.in,+91-9876543203,Swiggy,Delivery Operations,Delivery Executive,115,17500,2024-01-10,MORNING,45,15,3,78,3.2,10,LOW,"Two-Wheeler Driving,Navigation,Customer Service",Bangalore
+SWG004,Suresh,Reddy,suresh.reddy@swiggy.in,+91-9876543204,Swiggy,Delivery Operations,Senior Delivery Partner,140,21000,2021-06-05,ROTATING,55,42,14,58,9.8,34,HIGH,"Two-Wheeler Driving,Navigation,Training",Hyderabad
+SWG005,Manoj,Singh,manoj.singh@swiggy.in,+91-9876543205,Swiggy,Delivery Operations,Delivery Executive,118,17800,2023-08-22,AFTERNOON,48,20,6,72,5.1,8,MEDIUM,"Two-Wheeler Driving,Navigation",Chennai
+SWG006,Kavitha,Nair,kavitha.nair@swiggy.in,+91-9876543206,Swiggy,Delivery Operations,Delivery Executive,120,18000,2023-05-14,MORNING,44,12,2,82,2.8,11,LOW,"Two-Wheeler Driving,Navigation,Customer Service",Kochi
+SWG007,Ramesh,Yadav,ramesh.yadav@swiggy.in,+91-9876543207,Swiggy,Delivery Operations,Delivery Executive,115,17500,2024-02-28,NIGHT,60,48,20,48,15.6,2,HIGH,"Two-Wheeler Driving,Navigation",Pune
+SWG008,Deepak,Gupta,deepak.gupta@swiggy.in,+91-9876543208,Swiggy,Hub Operations,Hub Manager,180,28000,2021-01-10,MORNING,50,22,4,85,2.1,39,LOW,"Inventory Management,Team Management,Logistics",Mumbai
+SWG009,Sanjay,Mishra,sanjay.mishra@swiggy.in,+91-9876543209,Swiggy,Delivery Operations,Delivery Executive,112,17000,2023-12-01,ROTATING,56,40,15,52,11.2,4,HIGH,"Two-Wheeler Driving,Navigation",Delhi
+SWG010,Anita,Deshmukh,anita.deshmukh@swiggy.in,+91-9876543210,Swiggy,Delivery Operations,Delivery Executive,118,17800,2023-06-18,AFTERNOON,47,18,5,74,4.5,10,MEDIUM,"Two-Wheeler Driving,Navigation,Customer Service",Bangalore
+SWG011,Vikram,Chauhan,vikram.chauhan@swiggy.in,+91-9876543211,Swiggy,Delivery Operations,Delivery Executive,120,18000,2022-09-12,NIGHT,62,52,22,42,18.3,19,HIGH,"Two-Wheeler Driving,Navigation",Jaipur
+SWG012,Lakshmi,Iyer,lakshmi.iyer@swiggy.in,+91-9876543212,Swiggy,Hub Operations,Hub Associate,135,20000,2023-04-05,MORNING,46,14,3,80,3.0,12,LOW,"Inventory Management,Order Processing",Chennai
+SWG013,Arun,Verma,arun.verma@swiggy.in,+91-9876543213,Swiggy,Delivery Operations,Delivery Executive,115,17500,2024-03-01,ROTATING,54,36,13,60,8.9,1,HIGH,"Two-Wheeler Driving,Navigation",Lucknow
+SWG014,Pooja,Joshi,pooja.joshi@swiggy.in,+91-9876543214,Swiggy,Delivery Operations,Delivery Executive,122,18200,2022-07-20,MORNING,43,10,2,84,2.2,21,LOW,"Two-Wheeler Driving,Navigation,Customer Service",Ahmedabad
+SWG015,Ganesh,Patil,ganesh.patil@swiggy.in,+91-9876543215,Swiggy,Delivery Operations,Fleet Supervisor,160,25000,2021-03-15,ROTATING,50,25,8,76,4.0,36,MEDIUM,"Two-Wheeler Driving,Fleet Management,Training",Pune
+SWG016,Ravi,Tiwari,ravi.tiwari@swiggy.in,+91-9876543216,Swiggy,Delivery Operations,Delivery Executive,110,16500,2024-01-25,NIGHT,58,44,19,50,13.5,3,HIGH,"Two-Wheeler Driving,Navigation",Kolkata
+SWG017,Sunita,Bhat,sunita.bhat@swiggy.in,+91-9876543217,Swiggy,Delivery Operations,Delivery Executive,118,17800,2023-09-10,AFTERNOON,46,16,4,76,4.8,7,MEDIUM,"Two-Wheeler Driving,Navigation",Bangalore
+SWG018,Mohammed,Ansari,mohammed.ansari@swiggy.in,+91-9876543218,Swiggy,Delivery Operations,Delivery Executive,120,18000,2022-12-08,ROTATING,55,38,14,58,10.2,16,HIGH,"Two-Wheeler Driving,Navigation",Mumbai
+SWG019,Sneha,Kulkarni,sneha.kulkarni@swiggy.in,+91-9876543219,Swiggy,Hub Operations,Hub Associate,130,19500,2023-07-14,MORNING,44,11,2,82,2.5,9,LOW,"Inventory Management,Order Processing,Quality Check",Pune
+SWG020,Kiran,Prasad,kiran.prasad@swiggy.in,+91-9876543220,Swiggy,Delivery Operations,Delivery Executive,115,17500,2023-10-30,NIGHT,60,50,21,45,16.8,6,HIGH,"Two-Wheeler Driving,Navigation",Hyderabad
