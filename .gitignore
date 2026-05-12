@@ -1,5 +1,6 @@
 # Local .intraview folder
 .intraview/
+tmp_tools/
 
 # Environments
 .env
